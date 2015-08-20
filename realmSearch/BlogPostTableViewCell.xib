@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="blogCell" rowHeight="88" id="KGk-i7-Jjw" customClass="BlogPostTableViewCell">
+            <rect key="frame" x="0.0" y="-2" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="😀" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNc-Lx-egr">
+                        <rect key="frame" x="12" y="8" width="30" height="72"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="ZyO-4h-0Vn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Blog post content" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lam-KJ-ygK">
+                        <rect key="frame" x="50" y="32" width="262" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.5568077564239502" green="0.55690246820449829" blue="0.55678761005401611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8/11/15" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6D-hh-uYj">
+                        <rect key="frame" x="262" y="10" width="50" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="jr5-E8-lmU"/>
+                            <constraint firstAttribute="height" constant="16" id="uIw-KZ-Q1f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.61954724788665771" green="0.61965161561965942" blue="0.61952501535415649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blog Post Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQ8-Pp-cLI">
+                        <rect key="frame" x="50" y="8" width="208" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fjn-bW-WsR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Lam-KJ-ygK" secondAttribute="bottom" id="0Cw-lH-iNR"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Lam-KJ-ygK" secondAttribute="bottom" id="4R3-vg-f8l"/>
+                    <constraint firstItem="z6D-hh-uYj" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="6JQ-h4-HzR"/>
+                    <constraint firstItem="rQ8-Pp-cLI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="7KV-gS-XAb"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Lam-KJ-ygK" secondAttribute="bottom" constant="-1" id="KjJ-Tf-V7O"/>
+                    <constraint firstItem="rQ8-Pp-cLI" firstAttribute="leading" secondItem="iNc-Lx-egr" secondAttribute="trailing" constant="8" id="LRY-A9-kF3"/>
+                    <constraint firstItem="Lam-KJ-ygK" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="O3R-KG-7Rx"/>
+                    <constraint firstItem="Lam-KJ-ygK" firstAttribute="top" secondItem="rQ8-Pp-cLI" secondAttribute="bottom" constant="4" id="R5q-IJ-tSz"/>
+                    <constraint firstItem="z6D-hh-uYj" firstAttribute="leading" secondItem="rQ8-Pp-cLI" secondAttribute="trailing" constant="4" id="T90-sR-l8w"/>
+                    <constraint firstItem="iNc-Lx-egr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Wrd-LE-QjT"/>
+                    <constraint firstItem="rQ8-Pp-cLI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Yx0-0n-ynp"/>
+                    <constraint firstItem="iNc-Lx-egr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aiR-Ox-3oo"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="iNc-Lx-egr" secondAttribute="bottom" id="bFE-lZ-DhP"/>
+                    <constraint firstItem="iNc-Lx-egr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="cI7-44-efh"/>
+                    <constraint firstItem="z6D-hh-uYj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="iiP-qv-c3L"/>
+                    <constraint firstItem="iNc-Lx-egr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="jaA-zB-O7U"/>
+                    <constraint firstItem="rQ8-Pp-cLI" firstAttribute="leading" secondItem="iNc-Lx-egr" secondAttribute="trailing" constant="8" id="jbg-cC-dTe"/>
+                    <constraint firstItem="Lam-KJ-ygK" firstAttribute="leading" secondItem="iNc-Lx-egr" secondAttribute="trailing" constant="8" id="wG5-8y-cbU"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="aiR-Ox-3oo"/>
+                        <exclude reference="jbg-cC-dTe"/>
+                        <exclude reference="0Cw-lH-iNR"/>
+                        <exclude reference="KjJ-Tf-V7O"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="Lam-KJ-ygK" id="jwb-2t-E5X"/>
+                <outlet property="dateLabel" destination="z6D-hh-uYj" id="98L-NO-37K"/>
+                <outlet property="emojiLabel" destination="iNc-Lx-egr" id="bms-gJ-dA4"/>
+                <outlet property="titleLabel" destination="rQ8-Pp-cLI" id="MmZ-lS-Vjy"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="385"/>
+        </tableViewCell>
+    </objects>
+</document>

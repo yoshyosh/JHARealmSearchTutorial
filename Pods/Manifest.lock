@@ -1,0 +1,23 @@
+PODS:
+  - ABFRealmSearchViewController (1.0):
+    - RBQFetchedResultsController
+    - Realm
+  - RBQFetchedResultsController (1.9):
+    - Realm
+  - Realm (0.94.0):
+    - Realm/Headers (= 0.94.0)
+  - Realm/Headers (0.94.0)
+  - RealmSFRestaurantData (0.2):
+    - Realm
+
+DEPENDENCIES:
+  - ABFRealmSearchViewController
+  - RealmSFRestaurantData
+
+SPEC CHECKSUMS:
+  ABFRealmSearchViewController: 92ad6e366f677b06d1b29d8a2dd24ab5cb94452f
+  RBQFetchedResultsController: 36e6038d3c3638ae9707a822e427f2d065c75206
+  Realm: a046149653e0ca220b65b5783da907aa5b74d86c
+  RealmSFRestaurantData: 0c1c513eb25e2a507a7c97d2ae546cf48c2bc2bf
+
+COCOAPODS: 0.37.2

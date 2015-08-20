@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ABFRealmSearchViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RBQFetchedResultsController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Realm.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-RealmSFRestaurantData.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>45B63194DD3F289FA1127618</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>561C27DD44228B7FAF05F05F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A6FA9D663BE22FB5F51CA26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AB547391A428B85B070390C9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B61E3E05DC9E86C9DA37AFE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
